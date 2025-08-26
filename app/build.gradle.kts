@@ -67,6 +67,10 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
+    // Hilt + Compose Navigation
+    implementation(libs.androidx.hilt.navigation.compose)
+
+
     // Room (Database) - with KSP
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
@@ -76,6 +80,7 @@ dependencies {
     implementation(platform(libs.retrofit.bom))
     implementation(libs.retrofit)
     implementation(libs.retrofit.kotlinx.serialization)
+    implementation(libs.retrofit.gson)
 
     implementation(platform(libs.okhttp.bom))
     implementation(libs.okhttp.logging.interceptor)
