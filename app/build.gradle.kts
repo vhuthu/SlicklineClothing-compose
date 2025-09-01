@@ -71,6 +71,11 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
 
 
+//    implementation(libs.glide.compose)
+    // Landscapist (Glide-powered image loader for Compose)
+    implementation(libs.landscapist.glide)
+
+
     // Room (Database) - with KSP
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
